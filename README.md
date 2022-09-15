@@ -24,7 +24,7 @@ python app.py
 4. The application is also hosted as a Heroku App here: https://gene-variant-monitoring.herokuapp.com/
 
 ### Further Ahead
-The data used here is limited only to classifying the gene and not identifying it's association with disease. The data source and similar ones could also be used comprehensively to understand the relation between various gene variants, diseases and their epidemiology.
+Here, the data is used for classifying the gene and not identifying it's association with disease. The data source and similar ones could also be used comprehensively to understand the relation between various gene variants, diseases and their epidemiology.
 
 
 
