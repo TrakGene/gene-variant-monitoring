@@ -5,12 +5,14 @@ from sklearn import preprocessing
 import requests
 le = preprocessing.LabelEncoder()
 
+#While using data from DataConnect
 '''url = 'http://localhost:8089/tables'
 r = requests.get(url)
 json = r.json()
 json.keys()
 data = pd.DataFrame(json['table_name')'''
 
+#Direct CSV data usage
 app = Flask(__name__)  ## setting up flask name
 filename = 'gsoc_data.csv'
 data = pd.read_csv(filename, na_values = '-')
