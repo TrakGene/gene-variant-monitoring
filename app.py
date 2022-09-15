@@ -2,7 +2,14 @@ from flask import Flask, request, url_for, redirect, render_template  ## importi
 import pickle  ## pickle for loading model
 import pandas as pd  ## to convert the input data into a dataframe for giving as a input to the model
 from sklearn import preprocessing
+import requests
 le = preprocessing.LabelEncoder()
+
+<!--url = 'http://localhost:8089/tables'
+r = requests.get(url)
+json = r.json()
+json.keys()
+data = pd.DataFrame(json['table_name')-->
 
 app = Flask(__name__)  ## setting up flask name
 filename = 'gsoc_data.csv'
