@@ -5,11 +5,11 @@ from sklearn import preprocessing
 import requests
 le = preprocessing.LabelEncoder()
 
-<!--url = 'http://localhost:8089/tables'
+'''url = 'http://localhost:8089/tables'
 r = requests.get(url)
 json = r.json()
 json.keys()
-data = pd.DataFrame(json['table_name')-->
+data = pd.DataFrame(json['table_name')'''
 
 app = Flask(__name__)  ## setting up flask name
 filename = 'gsoc_data.csv'
